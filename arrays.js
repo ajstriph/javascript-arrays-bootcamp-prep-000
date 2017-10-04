@@ -14,12 +14,12 @@ function destructivelyAddElementToBeginningOfArray (array, element){
 function addElementToEndOfArray (array, element){
   const addElementToEndOfArray = [1];
   const addElementtoEndofNewArray = [...addElementToEndOfArray, "foo"];
-  return array;
+  return addElementtoEndofNewArray;
 }
 function destructivelyAddElementToEndOfArray (array, element){
   destructivelyAddElementToEndOfArray = [1];
   destructivelyAddElementToEndOfArray.push("foo");
-  return array;
+  return destructivelyAddElementToEndOfArray;
 }
 function accessElementInArray (array, index){
   accessElementInArray = [1,2,3];
