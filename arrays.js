@@ -21,3 +21,6 @@ function destructivelyAddElementToEndOfArray (array, element){
   destructivelyAddElementToEndOfArray.push("foo");
   return array;
 }
+function accessElementInArray (array, index){
+  return [index];
+}
